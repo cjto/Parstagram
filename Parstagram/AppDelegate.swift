@@ -9,7 +9,7 @@ import Parse
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                        configuration.server = "https://warm-bastion-63696.herokuapp.com/parse"
                    })
         )
+        
         return true
     }
 

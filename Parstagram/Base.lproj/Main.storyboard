@@ -10,7 +10,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -153,6 +153,11 @@
                         <viewLayoutGuide key="safeArea" id="0xc-sZ-qNz"/>
                     </view>
                     <navigationItem key="navigationItem" id="69b-Wz-kSp">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="Wm2-K4-r8W">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="FPc-Ac-odd" id="ZGY-XU-fwc"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="I9d-4V-M7s">
                             <connections>
                                 <segue destination="E54-l0-LI6" kind="presentation" id="H2V-40-a5o"/>
@@ -165,7 +170,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r0B-Eh-SQ8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1777" y="133"/>
+            <point key="canvasLocation" x="1574" y="133"/>
         </scene>
         <!--Camera View Controller-->
         <scene sceneID="duK-17-cIc">
@@ -215,12 +220,12 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2598.5507246376815" y="132.58928571428572"/>
+            <point key="canvasLocation" x="2317" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IAj-yw-BBf">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pac-i9-qwK" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="pac-i9-qwK" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tM8-kG-Wmz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
@@ -233,7 +238,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F1D-fI-E4i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="964" y="133"/>
+            <point key="canvasLocation" x="851" y="133"/>
         </scene>
     </scenes>
     <resources>
