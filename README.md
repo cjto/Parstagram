@@ -6,7 +6,7 @@ Time spent: **12** hours spent in total
 
 ## User Stories
 
-The following **required** functionality is completed:
+The following functionalities are implemented within the app:
 
 - [x] User sees app icon in home screen and styled launch screen.
 - [x] User can sign up to create a new account. 
@@ -18,12 +18,6 @@ The following **required** functionality is completed:
 - [x] User can view comments on a post. 
 - [x] User can add a new comment. 
 
-The following **bonus** features are implemented:
-
-- [ ] User can add a profile picture. 
-- [ ] Profile pictures are shown for posts and comments. 
-- [ ] User can pull to refresh. 
-- [ ] User can load past tweets infinitely. 
 
 ## Video Walkthrough
 
