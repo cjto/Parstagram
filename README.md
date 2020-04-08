@@ -18,7 +18,6 @@ The following functionalities are implemented within the app:
 - [x] User can view comments on a post. 
 - [x] User can add a new comment. 
 
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
